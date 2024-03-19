@@ -1,0 +1,30 @@
+.accordionContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 60px 30px;
+}
+.accordionItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.accordionItem img {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.itemNumber {
+  font-family: "Lora Semi Bold";
+  font-size: 30px;
+  color: #c9a324;
+  line-height: 37.5px;
+  margin-right: 15px;
+}
+
+.itemDescription {
+  font-family: "Lora Medium";
+  font-size: 32px;
+  line-height: 40px;
+}

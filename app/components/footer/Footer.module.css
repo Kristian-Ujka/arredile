@@ -1,0 +1,68 @@
+.footer {
+  background-color: #000000;
+  color: #c5a126;
+}
+
+.logoTitle {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 21.78px;
+  color: #cbd2e0;
+}
+
+.footerFirstRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+}
+
+.footerSecondRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px 60px 80px;
+}
+.phoneNumber {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+}
+.footerButton {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.15px;
+  padding: 8px;
+  width: 236px;
+  border-radius: 7px;
+  border: 1px solid #c5a126;
+  display: flex;
+  justify-content: center;
+}
+.iconContainer {
+  margin-left: 96px;
+}
+
+.footerMail {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  margin: auto;
+  padding-right: 96px;
+}
+
+.footerLastRow {
+  padding: 0 20px;
+}
+.lastText {
+  padding: 40px 0 60px 0;
+  border-top: 1px solid #c5a126;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+}

@@ -1,0 +1,319 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* START DEFAULT STYLE SETTINGS */
+
+/* Fonts */
+/* Font Lora Regular */
+
+/* Font Lora Regular */
+@font-face {
+  font-family: "Lora Regular";
+  src: url("/fonts/Lora-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Font Lora Regular Italic */
+@font-face {
+  font-family: "Lora Regular Italic";
+  src: url("/fonts/Lora-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Font Lora Medium */
+@font-face {
+  font-family: "Lora Medium";
+  src: url("/fonts/Lora-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Font Lora Medium Italic */
+@font-face {
+  font-family: "Lora Medium Italic";
+  src: url("/fonts/Lora-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Font Lora Semi Bold */
+@font-face {
+  font-family: "Lora Semi Bold";
+  src: url("/fonts/Lora-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Font Lora Semi Bold Italic */
+@font-face {
+  font-family: "Lora Semi Bold Italic";
+  src: url("/fonts/Lora-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Font Lora Bold */
+@font-face {
+  font-family: "Lora Bold";
+  src: url("/fonts/Lora-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Font Lora Bold Italic */
+@font-face {
+  font-family: "Lora Bold Italic";
+  src: url("/fonts/Lora-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Heading styles */
+.h1 {
+  font-size: 40px;
+  font-weight: 600; /* Semi Bold */
+  line-height: 125%;
+}
+
+.h2 {
+  font-size: 32px;
+  font-weight: 600; /* Semi Bold */
+  line-height: 125%;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 600; /* Semi Bold */
+  line-height: 125%;
+}
+
+.h4 {
+  font-size: 18px;
+  font-weight: 600; /* Semi Bold */
+  line-height: 125%;
+}
+
+.h5 {
+  font-size: 14px;
+  font-weight: 600; /* Semi Bold */
+  line-height: 125%;
+}
+
+/* Body text styles */
+.p1-r {
+  font-size: 16px;
+  font-weight: 400; /* Regular */
+  line-height: 150%;
+}
+
+.p1-b {
+  font-size: 16px;
+  font-weight: 500; /* Medium */
+  line-height: 150%;
+}
+
+.p2-r {
+  font-size: 14px;
+  font-weight: 400; /* Regular */
+  line-height: 150%;
+}
+
+.p2-b {
+  font-size: 14px;
+  font-weight: 500; /* Medium */
+  line-height: 150%;
+}
+
+.p3-r {
+  font-size: 12px;
+  font-weight: 400; /* Regular */
+  line-height: 150%;
+}
+
+.p3-b {
+  font-size: 12px;
+  font-weight: 500; /* Medium */
+  line-height: 150%;
+}
+
+/* Label styles */
+.l1-r {
+  font-size: 16px;
+  font-weight: 400; /* Regular */
+  line-height: 125%;
+}
+
+.l1-b {
+  font-size: 16px;
+  font-weight: 600; /* Semi Bold */
+  line-height: 125%;
+}
+
+.l2-r {
+  font-size: 14px;
+  font-weight: 400; /* Regular */
+  line-height: 125%;
+}
+
+.l2-b {
+  font-size: 14px;
+  font-weight: 600; /* Semi Bold */
+  line-height: 125%;
+}
+
+.l3-r {
+  font-size: 12px;
+  font-weight: 400; /* Regular */
+  line-height: 125%;
+}
+
+.l3-b {
+  font-size: 12px;
+  font-weight: 600; /* Semi Bold */
+  line-height: 125%;
+}
+
+/* END DEFAULT STYLE SETTINGS */
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-header {
+  background-color: #000000;
+  height: 402px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 120px;
+}
+
+.landing-header .logo-img {
+  margin: auto;
+}
+
+.landing-header .social-section {
+  display: flex;
+  align-items: center;
+}
+
+.social-section span {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 26.04px;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.info-section {
+  display: flex;
+  margin-top: 40px;
+}
+
+.info-details {
+  width: 50%;
+  padding: 30px 60px 0 60px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.info-title {
+  font-size: 30px;
+  line-height: 37.5px;
+  margin-bottom: 60px;
+  font-family: "Lora Semi Bold";
+}
+
+.info-description {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.info-description > div:last-of-type {
+  margin-top: 100px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.info-image {
+  width: 50%;
+  z-index: 1;
+}
+
+.service-section {
+  background-color: #fff7db;
+  display: flex;
+  padding: 180px 60px 150px 60px;
+  margin-top: -120px;
+  width: 100%;
+}
+.service-info {
+  width: 40%;
+}
+.service-info img {
+  width: 100%;
+}
+
+.service-title {
+  font-size: 30px;
+  line-height: 37.5px;
+  margin-bottom: 90px;
+  font-family: "Lora Semi Bold";
+}
+
+.contact-us {
+  padding: 120px;
+  display: flex;
+}
+
+.contact-info {
+  align-self: self-end;
+  border-radius: 10px;
+  background-color: #fff7db;
+  padding: 45px;
+  max-height: 588px;
+  max-width: 395px;
+  margin-left: auto;
+}
+
+.contact-info-title {
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: "Lora Semi Bold";
+  line-height: 33.75px;
+}
+
+.contact-info-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.contact-text-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.contact-text-label {
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 28.75px;
+  margin-bottom: 15px;
+}
+
+.contact-text-value {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+}

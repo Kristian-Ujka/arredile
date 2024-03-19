@@ -1,0 +1,82 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.formTitle {
+  font-family: "Lora Semi Bold";
+  font-size: 30px;
+  line-height: 37.5px;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.inputRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputSection {
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.inputSection label {
+  line-height: 16px;
+}
+
+.inputSection input {
+  border-radius: 6px;
+  border: 1px solid #cbd2e0;
+  padding: 11px 12px;
+  width: 227px;
+}
+
+.checkboxSection {
+}
+
+.checboxRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 0 5px;
+  width: 227px;
+}
+
+.checboxRow input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+}
+
+.leftSpacingCheckbox {
+  margin-left: 80px;
+}
+
+.textarea {
+  width: 100%;
+  border: 1px solid #cbd2e0;
+  padding: 12px;
+  outline: none;
+  border-radius: 6px;
+  resize: none;
+  height: 127px;
+}
+
+.submitButton {
+  background-color: #c5a126;
+  padding: 10px;
+  border-radius: 7px;
+  align-self: flex-end;
+  margin-top: 40px;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 18.15px;
+  width: 161px;
+}
