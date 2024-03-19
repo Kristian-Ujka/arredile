@@ -1,0 +1,42 @@
+.landingHeader {
+  background-color: #000000;
+  height: 402px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 120px;
+}
+
+.logoImg {
+  margin: auto;
+}
+
+.landingHeader .socialSection {
+  display: flex;
+  align-items: center;
+}
+
+.socialSection span {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 26.04px;
+}
+
+@media only screen and (max-width: 768px) {
+  .landingHeader {
+    height: 197px;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .logoImg {
+    width: 164px;
+    height: 52px;
+    margin: unset;
+  }
+
+  .socialSection span {
+    display: none;
+  }
+}

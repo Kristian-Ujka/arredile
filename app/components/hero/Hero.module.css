@@ -1,0 +1,28 @@
+.heroImage {
+  width: 100%;
+}
+
+.customPrevArrow {
+  position: absolute;
+  left: 10px; /* Posiziona la freccia sinistra a sinistra */
+  top: 50%; /* Centra verticalmente */
+  transform: translateY(-50%); /* Centra verticalmente */
+  z-index: 1;
+  width: unset;
+}
+
+.customNextArrow {
+  position: absolute;
+  right: 10px; /* Posiziona la freccia destra a destra */
+  top: 50%; /* Centra verticalmente */
+  transform: translateY(-50%); /* Centra verticalmente */
+  z-index: 1;
+  width: unset;
+}
+
+@media only screen and (max-width: 768px) {
+  .customPrevArrow,
+  .customNextArrow {
+    display: none !important;
+  }
+}

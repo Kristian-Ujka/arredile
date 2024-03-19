@@ -2,30 +2,14 @@ import Image from "next/image";
 import { ServiceAccordion } from "./components/service-accordion/ServiceAccordion";
 import { ContactForm } from "./components/contact-form/ContactForm";
 import { Footer } from "./components/footer/Footer";
+import { Header } from "./components/header/Header";
+import { Hero } from "./components/hero/Hero";
 
 export default function Home() {
   return (
     <div className="landing-container">
-      <div className="landing-header">
-        <Image
-          src="/assets/logo.png"
-          alt="Arredilè logo"
-          width={307}
-          className="logo-img"
-          height={110}
-        />
-        <div className="social-section">
-          <span className="text-white mr-2">Seguici su</span>
-          <img src="/assets/icon-instagram.png" alt="Seguici su istagram" />
-        </div>
-      </div>
-      <div className="hero-section">
-        <img
-          src="/assets/hero.png"
-          alt="Immagine principale"
-          className="hero-image"
-        />
-      </div>
+      <Header />
+      <Hero />
       <div className="info-section">
         <div className="info-details">
           <div className="info-title">Chi siamo</div>
