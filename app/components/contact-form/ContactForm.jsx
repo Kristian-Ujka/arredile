@@ -1,4 +1,5 @@
 "use client";
+import { ContactDropdown } from "../contact-dropdown/ContactDropdown";
 import style from "./ContactForm.module.css";
 import { useState } from "react";
 
@@ -115,6 +116,8 @@ export const ContactForm = () => {
             </div>
           </div>
         </div>
+
+        <ContactDropdown />
 
         <div className="flex flex-col mt-14">
           <label className="p2-b mb-1">Idea progettuale</label>

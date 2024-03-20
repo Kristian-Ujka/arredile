@@ -35,24 +35,30 @@ export const Hero = () => {
       )}
     >
       <div>
-        <img
+        <Image
           src="/assets/hero.png"
           alt="Immagine principale"
-          className={style.heroImage}
+          className={`${style.heroImage} ${style.heroImageAutoWidth}`}
+          layout="fill"
+          objectFit="contain"
         />
       </div>
       <div>
-        <img
+        <Image
           src="/assets/hero.png"
           alt="Immagine principale"
-          className={style.heroImage}
+          className={`${style.heroImage} ${style.heroImageAutoWidth}`}
+          layout="fill"
+          objectFit="contain"
         />
       </div>
       <div>
-        <img
+        <Image
           src="/assets/hero.png"
           alt="Immagine principale"
-          className={style.heroImage}
+          className={`${style.heroImage} ${style.heroImageAutoWidth}`}
+          layout="fill"
+          objectFit="contain"
         />
       </div>
     </Carousel>

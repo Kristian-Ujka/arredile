@@ -15,7 +15,9 @@ export const Footer = () => {
           />
         </div>
         <div className={style.phoneNumber}>+39 3513992495</div>
-        <div className={style.footerButton}>Scarica brochure</div>
+        <div className={`${style.footerButton} ${style.toHide}`}>
+          Scarica brochure
+        </div>
       </div>
       <div className={style.footerSecondRow}>
         <div className={style.iconContainer}>
@@ -28,6 +30,11 @@ export const Footer = () => {
         </div>
         <div className={style.footerMail}>hello@reallygreatsite.com</div>
       </div>
+
+      <div className={`${style.footerButton}  ${style.toShow}`}>
+        Scarica brochure
+      </div>
+
       <div className={style.footerLastRow}>
         <div className={style.lastText}>
           Lorem ipsum dolor sit amet consectetur.

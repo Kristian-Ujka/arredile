@@ -20,6 +20,12 @@
   width: unset;
 }
 
+.heroImageAutoWidth {
+  width: 100% !important;
+  height: auto !important;
+  position: inherit !important;
+}
+
 @media only screen and (max-width: 768px) {
   .customPrevArrow,
   .customNextArrow {

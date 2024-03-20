@@ -1,0 +1,98 @@
+.contactUs {
+  padding: 120px;
+  display: flex;
+}
+
+.contactInfo {
+  align-self: self-end;
+  border-radius: 10px;
+  background-color: #fff7db;
+  padding: 45px;
+  max-height: 588px;
+  max-width: 395px;
+  margin-left: auto;
+}
+
+.contactInfoTitle {
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: "Lora Semi Bold";
+  line-height: 33.75px;
+}
+
+.contactInfoRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.iconContainer {
+  border: 3px solid #c5a126;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 51px;
+  height: 51px;
+  min-width: 51px;
+  min-height: 51px;
+}
+.contactTextInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.contactTextLabel {
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 28.75px;
+  margin-bottom: 15px;
+}
+
+.contactTextValue {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contactUs {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .contactInfo {
+    width: 100%;
+    align-self: unset;
+    align-items: center;
+    justify-content: center;
+    padding: unset;
+    max-height: unset;
+    max-width: unset;
+    margin-left: unset;
+    padding: 30px 100px;
+  }
+
+  .contactTextInfo {
+    margin-left: 10px;
+  }
+  .contactInfoTitle {
+    margin-bottom: 30px;
+  }
+
+  .contactTextLabel {
+    display: none;
+  }
+
+  .contactTextValue {
+    font-size: 15px;
+    line-height: 18.75px;
+    font-weight: 400;
+  }
+
+  .contactInfoRow {
+    margin-bottom: 30px;
+  }
+}

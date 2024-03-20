@@ -66,3 +66,55 @@
   line-height: 25px;
   font-weight: 300;
 }
+
+.footerButton.toHide {
+  display: flex;
+}
+.footerButton.toShow {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerFirstRow {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .logoTitle {
+    font-size: 15px;
+    line-height: 18.15px;
+    margin-bottom: 4px;
+  }
+
+  .phoneNumber {
+    display: none;
+  }
+  .footerMail {
+    display: none;
+  }
+
+  .footerSecondRow {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .iconContainer {
+    margin: 0;
+  }
+
+  .footerLastRow {
+    display: none;
+  }
+
+  .footerButton.toHide {
+    display: none;
+  }
+  .footerButton.toShow {
+    display: flex;
+    align-self: center;
+    margin: 40px 0 60px 0;
+  }
+}
