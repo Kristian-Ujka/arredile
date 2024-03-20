@@ -10,7 +10,7 @@ export const OurServices = () => {
         <Image
           src="/assets/service-image.png"
           alt="Immagine nostri servizi"
-          width={566}
+          width={400}
           height={719}
         />
       </div>

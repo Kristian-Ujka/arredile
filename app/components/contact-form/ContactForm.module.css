@@ -19,6 +19,7 @@
 .inputRow {
   display: flex;
   justify-content: space-between;
+  gap: 15px;
 }
 
 .inputSection {
@@ -37,9 +38,6 @@
   border: 1px solid #cbd2e0;
   padding: 11px 12px;
   width: 227px;
-}
-
-.checkboxSection {
 }
 
 .checboxRow {
@@ -82,7 +80,7 @@
   height: 46px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1130px) {
   .contactForm {
     display: flex;
     flex-direction: column;
@@ -94,12 +92,20 @@
     font-size: 25px;
     line-height: 31.25px;
   }
+  .inputSection {
+    width: 100%;
+  }
 
   .inputSection input {
     border-radius: 6px;
     border: 1px solid #cbd2e0;
     padding: 11px 12px;
-    width: 180px;
+    width: 100%;
+  }
+
+  .inputRow {
+    gap: 30px;
+    justify-content: unset;
   }
 
   .checboxRow {
@@ -110,11 +116,21 @@
     width: 100%;
   }
 
+  .checkboxSection {
+    width: 100%;
+  }
+
   .leftSpacingCheckbox {
     margin-left: 65px;
   }
 
   .submitButton {
     align-self: center;
+  }
+}
+
+@media only screen and (max-width: 454px) {
+  .inputRowCheckbox {
+    flex-direction: column;
   }
 }

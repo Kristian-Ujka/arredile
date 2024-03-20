@@ -26,7 +26,7 @@
 }
 .phoneNumber {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
 }
 .footerButton {
@@ -46,7 +46,7 @@
 
 .footerMail {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   margin: auto;
   padding-right: 96px;

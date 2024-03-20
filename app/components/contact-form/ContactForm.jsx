@@ -63,7 +63,7 @@ export const ContactForm = () => {
           </div>
         </div>
 
-        <div className={style.inputRow}>
+        <div className={`${style.inputRow} ${style.inputRowCheckbox}`}>
           <div className={style.checkboxSection}>
             <div className="p2-b">Hai un immobile?</div>
             <div className={style.checboxRow}>

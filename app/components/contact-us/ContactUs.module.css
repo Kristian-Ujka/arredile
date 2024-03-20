@@ -14,7 +14,7 @@
 }
 
 .contactInfoTitle {
-  font-size: 27px;
+  font-size: 25px;
   text-align: center;
   margin-bottom: 60px;
   font-family: "Lora Semi Bold";
@@ -45,19 +45,19 @@
 }
 
 .contactTextLabel {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 28.75px;
   margin-bottom: 15px;
 }
 
 .contactTextValue {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 300;
   line-height: 25px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1130px) {
   .contactUs {
     padding: 0;
     flex-direction: column;
