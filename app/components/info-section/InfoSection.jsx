@@ -1,3 +1,4 @@
+import Image from "next/image";
 import style from "./InfoSection.module.css";
 
 export const InfoSection = () => {
@@ -26,11 +27,15 @@ export const InfoSection = () => {
           </div>
         </div>
       </div>
-      <img
-        className={style.infoImage}
-        src="/assets/description-image.png"
-        alt="Description image"
-      />
+
+      <div className={style.infoImage}>
+        <Image
+          src="/assets/description-image.png"
+          alt="Description image"
+          width={724}
+          height={840}
+        />
+      </div>
     </div>
   );
 };
